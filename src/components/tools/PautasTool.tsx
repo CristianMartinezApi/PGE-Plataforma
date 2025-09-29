@@ -200,6 +200,7 @@ export function PautasTool({ onBack, onHome }: PautasToolProps) {
       const pautaDate = new Date(pauta.data);
       const selectedDateTime = new Date(selectedDate);
       return pautaDate.toDateString() === selectedDateTime.toDateString();
+      
     });
   }, [filteredPautas, selectedDate]);
 
