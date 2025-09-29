@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Custom styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #155e75;
+    font-weight: 600;
+  }
+}
+
+.page-header {
+  background-color: #155e75;
+  background-image: linear-gradient(120deg, #155e75, #0c4a5c);
+}

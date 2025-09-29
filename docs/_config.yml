@@ -1,0 +1,21 @@
+title: PGE Plataforma
+description: Portal Institucional da Procuradoria Geral do Estado
+theme: jekyll-theme-cayman
+
+# Site settings
+baseurl: "/PGE-Plataforma" # the subpath of your site, e.g. /blog
+url: "https://cristianmartinezapi.github.io" 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
